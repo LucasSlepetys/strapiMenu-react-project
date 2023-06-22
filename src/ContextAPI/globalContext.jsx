@@ -7,6 +7,7 @@ export const getContext = () => {
 
 const GlobalContext = ({ children }) => {
   const [isDisplaySideBar, setIsDisplaySideBar] = useState(false);
+  const [innerSubInfo, setInnerSubInfo] = useState(null);
 
   const toggleSideBar = () => {
     setIsDisplaySideBar(!isDisplaySideBar);
@@ -15,6 +16,8 @@ const GlobalContext = ({ children }) => {
   const globalValues = {
     isDisplaySideBar,
     toggleSideBar,
+    innerSubInfo,
+    setInnerSubInfo,
   };
 
   return <Context.Provider value={globalValues}>{children}</Context.Provider>;

@@ -1,6 +1,6 @@
 import SideBar from './SideBar_Component/SideBar';
-import NavBar from './NavBar';
-import Hero from './Hero';
+import NavBar from './NavBar_Component/NavBar';
+import Hero from './Hero_component/Hero';
 const App = () => {
   return (
     <div>

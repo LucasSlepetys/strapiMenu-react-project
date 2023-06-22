@@ -1,6 +1,6 @@
 import Sublink from './Sublink';
 import React from 'react';
-import { getContext } from '../globalContext';
+import { getContext } from '../ContextAPI/globalContext';
 import { FaTimes } from 'react-icons/fa';
 import sublinks from '../data';
 function SideBar({}) {

@@ -458,8 +458,7 @@ Nav Links
     display: flex;
     justify-content: center;
 
-    /* align-self: stretch; */
-    align-self: center;
+    align-self: stretch;
   }
 
   .nav-center {
